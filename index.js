@@ -13,4 +13,4 @@ app.listen(3000, () => {
     console.log('meetnhire-room app listening on port 2019!')
 });
 //For User
-app.post('/api/createRoom', meetnhireController.createRoom);
+app.post('/meetnhire-room/api/createRoom', meetnhireController.createRoom);
