@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
     next();
 })
 app.listen(3000, () => {
-    console.log('meetnhire-room app listening on port 2019!')
+    console.log('meetnhire-room app listening on port 3000!')
 });
 //For User
 app.post('/meetnhire-room/api/createRoom', meetnhireController.createRoom);
